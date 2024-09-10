@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-image: url(/images/background-login.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.loginHeader {
+  text-align: center;
+}
+
+.loginHeader h1 {
+  font-size: 100px;
+  font-weight: bold;
+  color: #f685a2;
+}
+
+.loginHeader p {
+  color: #f7b7c6;
+  font-size: 50px;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.loginHeader p::after {
+  content: "";
+  display: block;
+  height: 5px;
+  background: #f685a2;
+  width: 100%;
+  margin: 0 auto;
+}
+.loginBody form {
+  margin: 0 auto;
+  width: 450px;
+  margin-top: 60px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 50px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.loginInputcontainer {
+  margin-top: 30px;
+}
+
+.loginInputcontainer label {
+  display: block;
+  text-transform: uppercase;
+  color: white;
+  font-size: 20px;
+}
+
+.loginInputcontainer input {
+  height: 30px;
+  width: 100%;
+  border: 2px solid #f685a2;
+  padding: 5px;
+  font-size: 20px;
+  text-align: center;
+  font-style: italic;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+.loginButtoncontainer {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.loginButtoncontainer button {
+  font-size: 20px;
+  padding: 10px 50px;
+  color: #fff;
+  background-color: #f685a2;
+  border: none;
+}
