@@ -1,1 +1,1 @@
-# IMSM-Inventory_system-_php-
+# IMS-Inventory_system_php
